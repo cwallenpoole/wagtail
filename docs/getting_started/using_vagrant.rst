@@ -15,7 +15,9 @@ To setup the Vagrant box, run the following commands
     djrun
 
 
-If you now visit http://localhost:8000 you should see a very basic "Welcome to your new Wagtail site!" page.
+If you now visit `http://localhost:8000`<sup>*</sup> you should see a very basic "Welcome to your new Wagtail site!" page. 
+<sup>* Shoud be noted, this does depend on Vagrant settings. Look for the line "==> default: Forwarding ports..." in the STDOUT 
+from `vagrant up`</sup>
 
 You can browse the Wagtail admin interface at: http://localhost:8000/admin
 
